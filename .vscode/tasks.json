@@ -9,7 +9,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/exec/${fileBasenameNoExtension}",
+                "${fileDirname}/${fileBasenameNoExtension}",
                 "-lGL",
                 "-lglfw",
                 "-lGLEW"
